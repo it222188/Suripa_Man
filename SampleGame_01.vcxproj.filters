@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Common">
+      <UniqueIdentifier>ca95611e-53d4-4f97-b149-74d67dfd5966</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets">
+      <UniqueIdentifier>f8746ea5-2fde-4afe-b616-ab4f135810e2</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dds;dlg;fbx;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tga;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ImaseLib">
+      <UniqueIdentifier>{14dac426-e4f5-48bb-8df4-f7f0a30386c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{34d07605-9a94-469b-9400-9f5c7699d0b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Task">
+      <UniqueIdentifier>{6121f598-ee76-40db-97c2-e91287a89d5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FBX">
+      <UniqueIdentifier>{ad20312a-b611-41ac-9f43-68b2d695e11e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TitoLib">
+      <UniqueIdentifier>{d232712c-89fc-4287-aebf-3c7d098b0914}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="StepTimer.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="DeviceResources.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="ImaseLib\DebugFont.h">
+      <Filter>ImaseLib</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugDraw.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="UserResources.h" />
+    <ClInclude Include="ImaseLib\SceneManager.h">
+      <Filter>ImaseLib</Filter>
+    </ClInclude>
+    <ClInclude Include="SampleScene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="ImaseLib\TaskManager.h">
+      <Filter>ImaseLib</Filter>
+    </ClInclude>
+    <ClInclude Include="SampleTask.h">
+      <Filter>Task</Filter>
+    </ClInclude>
+    <ClInclude Include="ImaseLib\DebugCamera.h">
+      <Filter>ImaseLib</Filter>
+    </ClInclude>
+    <ClInclude Include="TitoLib\Floor_Model.h">
+      <Filter>TitoLib</Filter>
+    </ClInclude>
+    <ClInclude Include="TitoLib\Floor_Primitive.h">
+      <Filter>TitoLib</Filter>
+    </ClInclude>
+    <ClInclude Include="TitoLib\Grass.h">
+      <Filter>TitoLib</Filter>
+    </ClInclude>
+    <ClInclude Include="TitoLib\GrassManager.h">
+      <Filter>TitoLib</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="DeviceResources.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="ImaseLib\DebugFont.cpp">
+      <Filter>ImaseLib</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugDraw.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="SampleScene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="ImaseLib\TaskManager.cpp">
+      <Filter>ImaseLib</Filter>
+    </ClCompile>
+    <ClCompile Include="SampleTask.cpp">
+      <Filter>Task</Filter>
+    </ClCompile>
+    <ClCompile Include="ImaseLib\DebugCamera.cpp">
+      <Filter>ImaseLib</Filter>
+    </ClCompile>
+    <ClCompile Include="TitoLib\Floor_Model.cpp">
+      <Filter>TitoLib</Filter>
+    </ClCompile>
+    <ClCompile Include="TitoLib\Floor_Primitive.cpp">
+      <Filter>TitoLib</Filter>
+    </ClCompile>
+    <ClCompile Include="TitoLib\Grass.cpp">
+      <Filter>TitoLib</Filter>
+    </ClCompile>
+    <ClCompile Include="TitoLib\GrassManager.cpp">
+      <Filter>TitoLib</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="resource.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="directx.ico">
+      <Filter>Assets</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Manifest Include="settings.manifest">
+      <Filter>Assets</Filter>
+    </Manifest>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <MeshContentTask Include="Resources\Models\fbx\floor.fbx">
+      <Filter>FBX</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Resources\Models\fbx\flog.fbx">
+      <Filter>FBX</Filter>
+    </MeshContentTask>
+  </ItemGroup>
+</Project>
